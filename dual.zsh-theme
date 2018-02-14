@@ -29,5 +29,5 @@ function git_prompt_status_ext() {
 }
 
 # Prompt
-PROMPT="$a%c$r\$(git_prompt_info)\$(git_prompt_status_ext) $a=>$r "
+PROMPT="$a%c$r\$(git_prompt_info)\$(git_prompt_status_ext) $r$a=>$r "
 RPROMPT="$tf%D{%a-%d %R}$r"
